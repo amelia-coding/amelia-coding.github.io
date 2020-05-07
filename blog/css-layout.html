@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>布局方式 | Amelia学前端</title>
+    <meta name="description" content="我的前端日常日志，学习共勉">
+    <meta name="generator" content="VuePress 1.3.0">
+    <link rel="icon" href="/new-logo.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.7dc41318.css" as="style"><link rel="preload" href="/assets/js/app.ca1597ee.js" as="script"><link rel="preload" href="/assets/js/2.dddcbcec.js" as="script"><link rel="preload" href="/assets/js/9.42f084d4.js" as="script"><link rel="prefetch" href="/assets/js/10.1e8b3bc3.js"><link rel="prefetch" href="/assets/js/11.f65e7865.js"><link rel="prefetch" href="/assets/js/12.a7a5c5cf.js"><link rel="prefetch" href="/assets/js/13.e75a627a.js"><link rel="prefetch" href="/assets/js/14.9bd710e7.js"><link rel="prefetch" href="/assets/js/15.5ac1236a.js"><link rel="prefetch" href="/assets/js/16.5131a1ca.js"><link rel="prefetch" href="/assets/js/17.787dd717.js"><link rel="prefetch" href="/assets/js/18.c0c35387.js"><link rel="prefetch" href="/assets/js/19.c734addf.js"><link rel="prefetch" href="/assets/js/20.4e09868c.js"><link rel="prefetch" href="/assets/js/3.8d83936d.js"><link rel="prefetch" href="/assets/js/4.b0dd307f.js"><link rel="prefetch" href="/assets/js/5.e6948aea.js"><link rel="prefetch" href="/assets/js/6.894d8e58.js"><link rel="prefetch" href="/assets/js/7.b70d3b70.js"><link rel="prefetch" href="/assets/js/8.3fdc74c5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7dc41318.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Amelia学前端</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><a href="/interview/" class="nav-link">
+  面试
+</a></div><div class="nav-item"><a href="/book/" class="nav-link">
+  阅读
+</a></div> <a href="https://github.com/amelia-coding/blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><a href="/interview/" class="nav-link">
+  面试
+</a></div><div class="nav-item"><a href="/book/" class="nav-link">
+  阅读
+</a></div> <a href="https://github.com/amelia-coding/blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>网络基础</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>JS</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>CSS</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/css.html" class="sidebar-link">CSS 的使用总结</a></li><li><a href="/blog/css-layout.html" class="active sidebar-link">布局方式</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/css-layout.html#float-属性" class="sidebar-link">float 属性</a></li><li class="sidebar-sub-header"><a href="/blog/css-layout.html#positon-属性" class="sidebar-link">positon 属性</a></li><li class="sidebar-sub-header"><a href="/blog/css-layout.html#flex-布局属性" class="sidebar-link">flex 布局属性</a></li><li class="sidebar-sub-header"><a href="/blog/css-layout.html#三栏布局" class="sidebar-link">三栏布局</a></li><li class="sidebar-sub-header"><a href="/blog/css-layout.html#水平和垂直" class="sidebar-link">水平和垂直</a></li><li class="sidebar-sub-header"><a href="/blog/css-layout.html#两栏布局" class="sidebar-link">两栏布局</a></li><li class="sidebar-sub-header"><a href="/blog/css-layout.html#等高布局" class="sidebar-link">等高布局</a></li></ul></li><li><a href="/blog/css-impl.html" class="sidebar-link">CSS 使用总结</a></li><li><a href="/blog/css-module.html" class="sidebar-link">CSS 模块化</a></li><li><a href="/blog/css-animation.html" class="sidebar-link">CSS 动画</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>NodeJS</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>TypeScript</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>框架</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>性能优化</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>工程化与持续构建</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/webpack.html" class="sidebar-link">webpack</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="布局方式"><a href="#布局方式" class="header-anchor">#</a> 布局方式</h1> <ul><li>float</li> <li><a href="https://www.cnblogs.com/guolao/p/9048308.html" target="_blank" rel="noopener noreferrer">position<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="/blog/hhttps://www.cnblogs.com/qcloud1001/p/9848619.html">flex</a></li> <li>table</li> <li><a href="http://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html" target="_blank" rel="noopener noreferrer">grid<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <h2 id="float-属性"><a href="#float-属性" class="header-anchor">#</a> float 属性</h2> <h2 id="positon-属性"><a href="#positon-属性" class="header-anchor">#</a> positon 属性</h2> <h2 id="flex-布局属性"><a href="#flex-布局属性" class="header-anchor">#</a> flex 布局属性</h2> <p>flex-basis</p> <div class="language-plain extra-class"><pre class="language-text"><code>flex-basis: &lt;length&gt; | auto; /* default auto */
+定义了在分配多余空间之前，项目占据的主轴空间（main size）,初始的大小
+(limted by max|min-width)
+</code></pre></div><p>flex: flex-grow | flex-shink | flex-basis</p> <div class="language-plain extra-class"><pre class="language-text"><code>.item {flex: 1;}
+.item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+当 flex 取值为 none，则计算值为 0 0 auto，如下是等同的：
+当 flex 取值为 auto，则计算值为 1 1 auto，如下是等同的：
+
+</code></pre></div><h2 id="三栏布局"><a href="#三栏布局" class="header-anchor">#</a> 三栏布局</h2> <p>圣杯、双飞翼</p> <ol><li>方案的优缺点</li> <li>高度已知／未知</li> <li>兼容性</li></ol> <p>浮动方案 float</p> <div class="language-plain extra-class"><pre class="language-text"><code>&lt;div class=&quot;content&quot;&gt;
+  &lt;div class=&quot;left&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;center&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+  html * {
+    margin: 0;
+    padding: 0;
+  }
+  .content div {
+    height: 300px;
+  }
+  .center {
+    background-color: blue;
+  }
+  .left {
+    float: left;
+    width: 100px;
+    background-color: red;
+  }
+  .right {
+    float: right;
+    width: 100px;
+    background-color: green;
+  }
+&lt;/style&gt;
+</code></pre></div><p>absolute</p> <p>flex 方案</p> <p>table 方案</p> <p>gird 方案</p> <h2 id="水平和垂直"><a href="#水平和垂直" class="header-anchor">#</a> 水平和垂直</h2> <p>https://blog.csdn.net/weixin_37580235/article/details/82317240</p> <h2 id="两栏布局"><a href="#两栏布局" class="header-anchor">#</a> 两栏布局</h2> <h2 id="等高布局"><a href="#等高布局" class="header-anchor">#</a> 等高布局</h2> <div class="language-plain extra-class"><pre class="language-text"><code>//html
+&lt;div class='box'&gt;
+    &lt;div class='left'&gt;
+        &lt;div class='bor'&gt;&lt;/div&gt;
+        dasdsgerfadcdasdsfdsfdsfdsfdsfdfsdf
+    &lt;/div&gt;
+    &lt;div class='right'&gt;dsfdsfdsfdfsdf&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><p>flex</p> <div class="language-plain extra-class"><pre class="language-text"><code>.box{ display: flex; }
+.left,.right{ flex: 1; }
+//这种方式简洁明了，不考虑IE兼容性的话是最优的选择
+</code></pre></div><p>margin/padding 互相抵消</p> <div class="language-plain extra-class"><pre class="language-text"><code>.box{
+    overflow: hidden;
+    height: 200px;
+}
+.left,.right{
+    float: left;
+    width: 100px;
+    margin-bottom: -999em;
+    padding-bottom: 999em;
+}
+//这种方法有两个缺点是
+1.无法添加下边框。可以用div模拟边框来实现。需要给每列中加个空的div来模拟。如此例
+.box{
+    position: relative;  //需要给容器元素添加相对定位
+}
+.bor{
+    width: 100px;  //和列宽相同
+    border-top: 1px solid red;
+    position: absolute;
+    bottom: 0;
+}
+2.有时候我们并不想让多出的部分隐藏。
+</code></pre></div><p>table 布局</p> <div class="language-plain extra-class"><pre class="language-text"><code>&lt;table&gt;
+  &lt;tr&gt;
+      &lt;td class=&quot;left&quot;&gt;&lt;p&gt;1111111111111&lt;/p&gt;&lt;/td&gt;
+      &lt;td class=&quot;right&quot;&gt;222222222&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></div><p>absolute 绝对定位</p> <div class="language-plain extra-class"><pre class="language-text"><code>.box {
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    }
+.left,
+.right{
+    position: absolute;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #000;
+}
+.right {
+    left: 200px;
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/css.html" class="prev">
+        CSS 的使用总结
+      </a></span> <span class="next"><a href="/blog/css-impl.html">
+        CSS 使用总结
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ca1597ee.js" defer></script><script src="/assets/js/2.dddcbcec.js" defer></script><script src="/assets/js/9.42f084d4.js" defer></script>
+  </body>
+</html>
